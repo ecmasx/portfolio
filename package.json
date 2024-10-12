@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "watch:css": "tailwindcss -i ./public/styles.css -o ./public/output.css --watch"
+    "watch:css": "tailwindcss -i ./public/styles.css -o ./public/output.css --watch --minify"
   },
   "keywords": [
     "portfolio",
