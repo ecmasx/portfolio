@@ -4,7 +4,6 @@
   "main": "server.js",
   "scripts": {
     "start": "node ./src/scripts/server.js",
-    "dev": "nodemon ./src/scripts/server.js",
     "build": "tailwindcss -i ./src/styles/main.css -o ./public/css/output.css --watch --minify"
   },
   "keywords": [
@@ -14,11 +13,11 @@
     "express",
     "tailwindcss"
   ],
-  "author": "ecmasx",
+  "author": "Maxim Madan",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.4.20",
-    "express": "^4.21.1",
+    "express": "^4.22.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13"
   },

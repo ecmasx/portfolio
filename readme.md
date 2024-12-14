@@ -12,13 +12,7 @@ npm install
 npm run start
 ```
 
-3. **Development Mode**:
-
-```sh
-npm run dev
-```
-
-4. **Build CSS**:
+3. **Build CSS**:
 
 ```sh
 npm run build
