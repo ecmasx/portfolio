@@ -14,4 +14,9 @@ a {
   justify-items: center;
   align-items: center;
   gap: 2px;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  transform: scale(1.05);
 }
